@@ -20,8 +20,9 @@
 
     <!-- Sessões do site -->
 
-    <!-- PRIMEIRA SESSÃO -->
-    <section>
+    <!-- PRIMEIRA SESSÃO, para identificar a sessão no css identificar ela com o "class" Nunca começar nome de classe com número ou caracteres especiais sempre minúsculo -->
+
+    <section class="joaquim"> 
         <!-- LOADING = LAZY APÓS A IMAGEM PARA NÃO SOBRECARREGAR O SITE E FICAR PESADO -->
         <img src="imagens/coffe-4345449_1280.jpg" alt="Colocando mais café na xícara" width="40%" loading="lazy">
 
@@ -31,7 +32,7 @@
     </section>
 
     <!-- SEGUNDA SESSÃO  -->
-    <section>
+    <section class="renato">
         
         <i class="fa-solid fa-mug-hot"></i>
         <i class="fa-solid fa-mug-saucer"></i>
@@ -40,14 +41,29 @@
     </section>
 
     <!-- TERCEIRA SESSÃO -->
-    <section>
+    <section class="joao">
         <button>ACESSAR</button>
     </section>
 
     <!-- RODAPÉ DA PÁGINA <footer> -->
         <footer>
+            <p class="primeiro-nome">QUALQUER COISA TESTE</p>
             <p>TODOS DIREITOS RESERVADOS</p>
         </footer>
+
+
+        <!-- LINK/CÓDIGO LIBRAS HTML PEGAR NO SITE DO GOVERNO -->
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
 </body>
 
 </html>

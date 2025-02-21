@@ -1,14 +1,43 @@
 header {
     background-color: aquamarine; /*Cor de fundo do cabeçalho*/
     text-align: center; /*Alinhamento do texto*/
-    color: darkkhaki; /*Cor da letra*/
     padding: 25px; /*Tamanho/preenchimento do cabeçalho*/
 }
 
-footer{
-    background-color: black;
-    text-align: center;
-    color: aliceblue;
-    padding: 23px;
+header h1{
+
+    color: darkkhaki; /*Cor da letra*/
+    font-size: 25px; /*Tamanho da fonte/letras*/
     font-family: cursive; /*Mudar a fonte*/
 }
+/*para colocar uma classe coloque o "." primeiro antes do nome da classe para o css identifica-la*/
+.joaquim {
+    padding: 150px;
+    background-color: blueviolet;
+}
+
+.renato{
+    padding: 150px;
+    background-color: blue;
+}
+
+.joao{
+    padding: 150px;
+    background-color: brown;
+}
+
+
+footer{
+    background-color: aquamarine;/*Cor de fundo do rodapé*/
+    text-align: center; /*Alinhamento do texto*/
+    padding: 23px;/*Tamanho da caixa*/
+}
+
+    footer p{
+    color: blue;/*Cor da Letra*/
+    font-size: 25px;/*Tamanho da letra*/
+    }
+
+    footer .primeiro-nome{
+        color: chocolate;
+    }
