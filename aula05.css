@@ -1,7 +1,9 @@
 header {
     background-color: aquamarine; /*Cor de fundo do cabeçalho*/
-    text-align: center; /*Alinhamento do texto*/
     padding: 25px; /*Tamanho/preenchimento do cabeçalho*/
+    display: flex;
+    justify-content: center;
+    gap: ;
 }
 
 header h1{
@@ -9,6 +11,13 @@ header h1{
     color: darkkhaki; /*Cor da letra*/
     font-size: 25px; /*Tamanho da fonte/letras*/
     font-family: cursive; /*Mudar a fonte*/
+}
+
+/*Ajustar Imagem do header*/
+
+header img{
+    width: 70px; /*largura da logo*/
+
 }
 /*para colocar uma classe coloque o "." primeiro antes do nome da classe para o css identifica-la*/
 .joaquim {
