@@ -1,9 +1,11 @@
 header {
     background-color: aquamarine; /*Cor de fundo do cabeçalho*/
     padding: 25px; /*Tamanho/preenchimento do cabeçalho*/
-    display: flex;
-    justify-content: center;
-    gap: ;
+    display: flex; /* Responsavel por tornar os itens flex e deixar lado a lado*/
+    justify-content: center;/*Organização dos conteúdos dentro do canbeçalho*/
+    gap: 20px; /*espaçamento entre os elemementos (h1 e img)*/
+    align-items: center; /*Alinhamento dos itens*/
+
 }
 
 header h1{
@@ -21,8 +23,12 @@ header img{
 }
 /*para colocar uma classe coloque o "." primeiro antes do nome da classe para o css identifica-la*/
 .joaquim {
-    padding: 150px;
-    background-color: blueviolet;
+    padding: 150px; /*Preenchimento da sessão*/
+    background-color: blueviolet; /*Cor de fundo*/
+    display: flex; /*Deixando flex/ lado a lado*/
+    justify-content: center;/*justificando ao centro*/
+    align-items: center;/*alinhando os itens ao centro*/
+    gap: 20px;/*Espaço/ respiro entre os itens*/
 }
 
 .renato{
@@ -30,9 +36,17 @@ header img{
     background-color: blue;
 }
 
+.renato i{
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.719);
+
+}
+
 .joao{
     padding: 150px;
-    background-color: brown;
+    background-image: url(imagens/cafepixabay.jpg); /*Caminho da imagem*/
+    background-position: bottom;/*Posição da imagem*/
+    background-size: cover;/*preenchimento total da imagem*/
 }
 
 
