@@ -1,5 +1,5 @@
 header {
-    background-color: aquamarine; /*Cor de fundo do cabeçalho*/
+    background-color: #00c176; /*Cor de fundo do cabeçalho*/
     padding: 25px; /*Tamanho/preenchimento do cabeçalho*/
     display: flex; /* Responsavel por tornar os itens flex e deixar lado a lado*/
     justify-content: center;/*Organização dos conteúdos dentro do canbeçalho*/
@@ -10,7 +10,7 @@ header {
 
 header h1{
 
-    color: darkkhaki; /*Cor da letra*/
+    color: #fabe28; /*Cor da letra*/
     font-size: 25px; /*Tamanho da fonte/letras*/
     font-family: cursive; /*Mudar a fonte*/
 }
@@ -24,7 +24,7 @@ header img{
 /*para colocar uma classe coloque o "." primeiro antes do nome da classe para o css identifica-la*/
 .joaquim {
     padding: 150px; /*Preenchimento da sessão*/
-    background-color: blueviolet; /*Cor de fundo*/
+    background-color: #88c100; /*Cor de fundo*/
     display: flex; /*Deixando flex/ lado a lado*/
     justify-content: center;/*justificando ao centro*/
     align-items: center;/*alinhando os itens ao centro*/
@@ -33,7 +33,7 @@ header img{
 
 .renato{
     padding: 150px;
-    background-color: blue;
+    background-color: #ff8a00;
 }
 
 .renato i{
@@ -43,24 +43,42 @@ header img{
 }
 
 .joao{
-    padding: 150px;
+    padding: 200px;
     background-image: url(imagens/cafepixabay.jpg); /*Caminho da imagem*/
-    background-position: bottom;/*Posição da imagem*/
+    background-position: center center;/*Posição da imagem*/
     background-size: cover;/*preenchimento total da imagem*/
+    display: flex;/*deixando os intens lado a lado*/
+    align-items: center; /*Alinhando itens ao centro*/
+    justify-content: center; /*Justificando ao centro*/
+    /*Caso imagem tiver repetindo colocar background-repeat: no repeat */
 }
 
+.joao button{
+    background-color: rgba(128, 128, 128, 0.096); /*Transparencia do botão*/
+    font-family: cursive; /*Fonte do texto do botão*/
+    padding: 10px; /*Espaço de dentro do botão*/
+    border-radius: 10px; /*Borda arredondada*/
+    cursor: pointer; /*Muda o cursor ao passar pelo botão*/
+    font-size: 120%; /*Tamanho da fonte do botão*/
+    width: 300px; /*Largura do Bot]ao*/
+    height: 90px; /*Altura do botão*/
+    text-decoration: underline; /*Decoração do botão*/
+   
+}
 
 footer{
-    background-color: aquamarine;/*Cor de fundo do rodapé*/
-    text-align: center; /*Alinhamento do texto*/
+    background-color: #00c176;/*Cor de fundo do rodapé*/
+    text-align: center; /*Alinhamento do texto nesse caso esta trabalhando em cima de texto*/ 
     padding: 23px;/*Tamanho da caixa*/
+    font-size: 20px;
 }
+   
 
     footer p{
-    color: blue;/*Cor da Letra*/
+    color: #2d3f02;/*Cor da Letra*/
     font-size: 25px;/*Tamanho da letra*/
     }
 
-    footer .primeiro-nome{
-        color: chocolate;
+    footer i{
+        font-size: 40px;
     }
