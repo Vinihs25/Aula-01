@@ -1,0 +1,101 @@
+/*LINK GOOGLE FONT IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+/*Estilizando O HEADER*/
+
+header {
+    padding: 25px; /*Responsavel pelo preenchimento interno*/
+    background-color: black; /*Cor de fundo*/ 
+    display: flex; /*Tornando os itens flex lado a lado*/
+    justify-content: center; /*justificando o conteudo ao centro*/
+    gap: 50px; /*espaço entre os elementos*/
+    align-items: center; /*responsavel por alinhar verticalmente os itens*/
+}
+/*Estilizando a imagem se for icone estilizar igual texto*/
+header img{
+    width: 150px;
+    height: 200px;
+}
+/*Estilizando o título*/
+header h1{
+    color: #f2ab07;/*cor da letra*/
+    font-size: 36px;   /*tamanho da letra*/
+    font-family: "Inter", sans-serif; /*FONTE DO TEXTO*/
+}
+
+/*Fim do cabeçalho*/
+
+/*Inicio primeira sessão*/
+
+.primeira-section{
+    padding: 150px; /*Preenchimento/tamanho*/
+    background-color: black;/*cor de fundo*/
+    display: flex; /*tornando lado a lado*/
+    justify-content: center;/*Justificando o conteudo ao centro*/
+    align-items: center;/*Alinhamento vertical dos itens*/
+    gap: 60px;/*espaço entre os elementos*/
+}
+
+.primeira-section img{
+    width: 300px; /*Largura imagem*/
+    height: 320px;/*altura imagem*/
+    
+}
+
+.primeira-section p{
+    color: white;/*cor da letra*/
+    font-size: 30px;/*tamanho da letra*/
+     font-family: "Inter", sans-serif; /*Tipo de fonte*/
+}
+
+.primeira-section span{
+    font-size: 40px;
+    color: #f2ab07;  
+}
+/*Fim primeira sessão*/
+/*Inicio Segunda sessão*/
+
+.segunda-section{
+    background-color: black;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.segunda-section i{
+    font-size: 50px; /*tamanho do icone*/
+    color: #f2ab07;   /*cor do icone*/
+}
+
+.segunda-section p{
+    color: white; /*cor da letra*/
+    font-size: 30px;/*tamanho da letra*/
+    font-family: "Inter", sans-serif; /*tipo de fonte*/ 
+}
+/*Fim segunda sessão*/
+/*inicio Terceira sessão*/
+.terceira-section{
+    padding: 160px;
+    background-image: url(imagens/wrestler-149840_1280.png); /*img*/
+    background-position-x: center center; /*posição img*/
+    background-size: cover; /*preenchimento img*/
+    background-repeat: no-repeat;/*desabilitar reposição*/
+    background-attachment: fixed;/*Fixação da imagem*/
+    display: flex;
+    justify-content: center;
+}
+
+.terceira-section button{
+    padding: 10px;
+    background-color: #f2ab07;
+    color: black;  
+}
+
+
+
+
