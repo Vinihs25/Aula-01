@@ -135,13 +135,25 @@ header h1{
  
 }
 
-.div-01
+.div-01 i{
+   color: #f2ab07;
+}
 
 
 
 .div-02{ /*Aqui estamos alterando a segunda caixa/div*/
-    background-image: url(imagens/sabotage.jpg);/*Inserindo IMG*/
+    background-image: url(imagens/lulamolusco.jpg);/*Inserindo IMG*/
     background-size: cover;/*Aplicando o preenchimento total*/
+}
+.div-03 img{
+    width: 100px;
+    height: 100px;
+}
+.div-03 p{
+    font-size: 17px;/*Tamanho da letra*/
+    color: white;/*Cor da letra*/
+    font-weight: 600;/*Peso da fonte*/
+    line-height: 20px; /*Distancia entre as linhas */
 }
 
 
