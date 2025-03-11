@@ -25,6 +25,25 @@ header h1{
     font-family: "Inter", sans-serif; /*FONTE DO TEXTO*/
 }
 
+
+.list-menu ul{  /*Alteracão na lista nao ordenada elemento pai*/
+    display: flex; /*Tornando as (li) flex/lado a lado*/
+    justify-content:center; /*Deixando elas centralizadas*/
+    gap: 20px; /*Espaço entre as (li)*/
+    
+}
+
+.list-menu ul li{ /*Alteração da lista (li) elemento filho*/
+    list-style: none;  /*removendo o estilo da lista aplicado por padrão*/
+}
+
+.list-menu ul li a{
+    text-decoration: none; /*remoção do sublinhado (decoração do texto: nenhuma*/
+    color:  #f2ab07;
+    font-family: "Inter", sans-serif; /*FONTE DO TEXTO*/
+}
+
+
 /*Fim do cabeçalho*/
 
 /*Inicio primeira sessão*/
@@ -95,6 +114,48 @@ header h1{
     background-color: #f2ab07;
     color: black;  
 }
+
+/*Final da terceira sessão*/
+/*Quarta sessão*/
+.sessao-04 {
+    padding: 150px; /*preenchimento/tamanho da sessão*/
+    background-color: black;/*cor de fundo*/
+    display: flex;/*deixando as divs lado a lado*/
+    gap: 10px;/*espaço entre as caixas*/
+    justify-content: space-evenly;/*justificando o conteudo*/
+}
+
+.sessao-04 div{ /*Estilizando as div/caixa total3*/
+    width: 300px;/*largura da caixa*/
+    height: 300px;/*altura da caixa*/
+    background-color: #f2ab07;/*cor de fundo*/
+    color: white; /* cor da letra*/
+ 
+}
+
+
+footer{
+    padding: 25px;
+    background-color: black;
+    text-align-last: center;/*momentaneo*/
+}
+
+footer p{
+    color: #f2ab07; /*cor da letra*/
+    font-size: 25px;/*tamanho da letra*/
+}
+
+footer i{
+    color: #f2ab07;/*cor do icone*/
+    font-size: 20px;   /*tamanho do icone*/
+}
+
+
+
+
+
+
+
 
 
 

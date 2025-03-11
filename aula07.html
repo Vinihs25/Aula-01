@@ -1,81 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aula 07 / Aula</title>
+        <link rel="shortcut icon" href="imagens/coffee-3217471_1280.png" type="image/x-icon" />
+        <script src="https://kit.fontawesome.com/95cc33972b.js" crossorigin="anonymous"></script>
+        <!-- PUXAR O AQUIVO CSS UTILIZAR O LINK SEM COMPLEMENTO, SEMPRE NO HEAD -->
+        <link rel="stylesheet" href="aula07.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 07 / Aula</title>
-    <link rel="shortcut icon" href="imagens/coffee-3217471_1280.png" type="image/x-icon">      
-    <script src="https://kit.fontawesome.com/95cc33972b.js" crossorigin="anonymous"></script>
-    <!-- PUXAR O AQUIVO CSS UTILIZAR O LINK SEM COMPLEMENTO, SEMPRE NO HEAD -->
-    <link rel="stylesheet" href="aula07.css">
-    
-</head>
-
-   
-<body>
-    <!-- Nosso cabeçalho <header> -->
-    <header>
-        <img src="imagens/quadrinho.png" alt="personagem armado">
-        
-        <h1>Quadrinhos</h1>
-    </header>
-
-    <!-- Sessões do site -->
-
-    <!-- PRIMEIRA SESSÃO, para identificar a sessão no css identificar ela com o "class" Nunca começar nome de classe com número ou caracteres especiais sempre minúsculo -->
-<main>
-    
-    <section class="primeira-section"> 
-        <!-- LOADING = LAZY APÓS A IMAGEM PARA NÃO SOBRECARREGAR O SITE E FICAR PESADO -->
-        <img src="imagens/capitaoamerica.png" alt="Escudo Capitão América" width="40%" loading="lazy">
-
-        <p> <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Sed quisquam dolores fugit qui earum voluptatum nihil esse laboriosam corporis omnis reprehenderit et voluptatibus, harum nostrum officia corrupti dolore repellendus. Numquam!</p>
-
-    </section>
-
-    <!-- SEGUNDA SESSÃO  -->
-    <section class="segunda-section">
-        <div>
-        <i class="fa-solid fa-mug-hot"></i>
-        <i class="fa-solid fa-mug-saucer"></i>
-        <i class="fa-solid fa-mug-hot"></i>
+    <body>
+        <!-- Nosso cabeçalho <header> -->
+        <header>
+            <div>
+            <img src="imagens/quadrinho.png" alt="personagem armado" />
             </div>
+            <div>
+            <h1>Quadrinhos</h1>
+            </div>
+            
+            <div class="list-menu">
+            <ul>
+                <li>  <a href="">HOME</a>  </li>
+                <li>  <a href="">HOME</a> </li>
+                <li>  <a href="">HOME</a> </li>
+                
+            </ul>
+              </div>
+            
+        </header>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores vel fugiat autem quas. Mollitia nisi necessitatibus voluptatibus dolores unde, ut nam voluptatem fugiat aut, hic praesentium odio, dicta laborum?</p>
-        
-    </section>
+        <!-- Sessões do site -->
 
-    <!-- TERCEIRA SESSÃO -->
-    <section class="terceira-section">
-       <a href="https://www.getinapp.com.br/" target="_blank"> 
-        <button>Acessar</button>
-    </a>
-    </section>
-    </main>
-    <!-- RODAPÉ DA PÁGINA <footer> -->
+        <!-- PRIMEIRA SESSÃO, para identificar a sessão no css identificar ela com o "class" Nunca começar nome de classe com número ou caracteres especiais sempre minúsculo -->
+        <main> <!-- Responsalve por informar o conteudo principal da pagina-->
+            <section class="primeira-section">
+                <!-- LOADING = LAZY APÓS A IMAGEM PARA NÃO SOBRECARREGAR O SITE E FICAR PESADO -->
+                <img src="imagens/capitaoamerica.png" alt="Escudo Capitão América" width="40%" loading="lazy" />
+
+                <p>
+                    <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Sed quisquam dolores fugit qui
+                    earum voluptatum nihil esse laboriosam corporis omnis reprehenderit et voluptatibus, harum nostrum
+                    officia corrupti dolore repellendus. Numquam!
+                </p>
+            </section>
+
+            <!-- SEGUNDA SESSÃO  -->
+            <section class="segunda-section">
+                <div>
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <i class="fa-solid fa-mug-saucer"></i>
+                    <i class="fa-solid fa-mug-hot"></i>
+                </div>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores vel fugiat autem quas.
+                    Mollitia nisi necessitatibus voluptatibus dolores unde, ut nam voluptatem fugiat aut, hic
+                    praesentium odio, dicta laborum?
+                </p>
+            </section>
+
+            <!-- TERCEIRA SESSÃO -->
+            <section class="terceira-section">
+                <a href="https://www.getinapp.com.br/" target="_blank">
+                    <button>Acessar</button>
+                </a>
+            </section>
+        </main>
+        <!-- RODAPÉ DA PÁGINA <footer> -->
         <footer>
             <p>TODOS DIREITOS RESERVADOS</p>
-            <p>2025&copy</p>
+            <p>2025copy</p>
 
             <i class="fa-brands fa-tiktok"></i>
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-github"></i>
         </footer>
 
-
         <!-- LINK/CÓDIGO LIBRAS HTML PEGAR NO SITE DO GOVERNO -->
 
         <div vw class="enabled">
             <div vw-access-button class="active"></div>
             <div vw-plugin-wrapper>
-              <div class="vw-plugin-top-wrapper"></div>
+                <div class="vw-plugin-top-wrapper"></div>
             </div>
-          </div>
-          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-          <script>
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-          </script>
-</body>
- 
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget("https://vlibras.gov.br/app");
+        </script>
+    </body>
 </html>
