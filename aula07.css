@@ -117,20 +117,31 @@ header h1{
 
 /*Final da terceira sessão*/
 /*Quarta sessão*/
-.sessao-04 {
+.quarta-section {
     padding: 150px; /*preenchimento/tamanho da sessão*/
     background-color: black;/*cor de fundo*/
     display: flex;/*deixando as divs lado a lado*/
-    gap: 10px;/*espaço entre as caixas*/
+    gap: 15px;/*espaço entre as caixas*/
     justify-content: space-evenly;/*justificando o conteudo*/
 }
 
-.sessao-04 div{ /*Estilizando as div/caixa total3*/
+.quarta-section div{ /*Estilizando as div/caixa total3*/
     width: 300px;/*largura da caixa*/
     height: 300px;/*altura da caixa*/
-    background-color: #f2ab07;/*cor de fundo*/
+    background-color: rgba(128, 128, 128, 0.85);/*cor de fundo*/
     color: white; /* cor da letra*/
+    text-align: center;/*alinhando o texto ao centro*/
+    padding: 15px;/*margem interna da caixa*/
  
+}
+
+.div-01
+
+
+
+.div-02{ /*Aqui estamos alterando a segunda caixa/div*/
+    background-image: url(imagens/sabotage.jpg);/*Inserindo IMG*/
+    background-size: cover;/*Aplicando o preenchimento total*/
 }
 
 
